@@ -1,0 +1,28 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 50%;
+  margin: 10px;
+  display: inline-block;
+}
+  .container{
+  display: inline-grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5,50%);
+  grid-gap:3px
+} 
+
+ #game{
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+}
+
+#startGame{
+  display: inline-block;
+}
+
+ 
